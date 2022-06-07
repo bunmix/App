@@ -12,13 +12,15 @@ a{
     color: black;
 }
 li{
- list-style-type: none;
- padding:10px 30px;
+    list-style-type: none;
+    padding:10px 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
 .sender{
     background-color: rgb(202, 199, 194);
 }
-.recieve{
+.receive{
     background-color: rgb(204, 202, 200);
 }
 .transfer{
@@ -30,16 +32,14 @@ li{
 }
 .symbol h1{
     text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
-    font-size:30px ;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
 }
-.symbol p{
-    
-}
-.symbol i{
-    font-size: 96px;
-    padding-top: 20px;
-    color: rgb(122, 114, 114);
+.symbol p{ 
+    color: rgb(149, 149, 148);
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
 button{
     background-color: rgb(25, 87, 243);
@@ -51,5 +51,9 @@ button{
 .transmit{
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    padding-top: 30px;
+
+}
+.choice{
+    padding-top: 30px;
 }
